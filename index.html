@@ -14,10 +14,18 @@
 </head>
 
 <body>
-    <div class="container-fluid bg-green">
+    <div class="container-fluid bg-green" style="overflow: hidden;">
         <div class="row">
-            <div class="col-6 col-sm-4 order-2 order-sm-1 d-flex">
-                <img src="images/bamboo1.png" width="100%">
+            <div class="col-6 col-sm-4 order-2 order-sm-1">
+                <div class="row row-cols-sm-2">
+                    <div class="col-6">
+                        <img class="ms-5 mt-2" src="images/elements/cloud1.svg" width="50%"/>
+                    </div>
+                    <div class="col-6">
+                        <img class="mt-3" src="images/elements/cloud2.svg" width="100%" />
+                    </div>
+                </div>
+                <img src="images/elements/bamboo1.svg" width="110%">
             </div>
             <div class="col-12 col-sm-4 order-1 order-sm-2 text-center">
                 <p class="logo">SunShine</p>
@@ -25,18 +33,18 @@
                 <p class="pre-title">Украшения из эпоксидной смолы</p>
                 <div class="row pb-5 pb-lg-0">
                     <div class="col-4">
-                        <img src="images/lamp1.png" width="40%">
+                        <img src="images/elements/lamp1.svg" width="60%">
                     </div>
                     <div class="col-4">
-                        <img src="images/lamp2.png" width="40%">
+                        <img src="images/elements/lamp2.svg" width="60%">
                     </div>
                     <div class="col-4">
-                        <img src="images/lamp1.png" width="60%">
+                        <img src="images/elements/lamp3.svg" width="60%">
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-sm-4 order-3 d-flex">
-                <img src="images/bamboo2.png" width="100%" height="">
+            <div class="col-6 col-sm-4 order-3">
+                <img src="images/elements/bambooAndCloud.svg" width="125%">
             </div>
         </div>
     </div>
@@ -145,21 +153,25 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-12 col-lg-5 order-2 order-lg-1" style="padding: 0;">
-                <img style="height: 100vh;" src="images/photos/Venera.png" alt="" />
+        <div class="row align-items-center my-5">
+            <div class="col-12 col-lg-6 order-2 order-lg-1 d-flex justify-content-end" style="padding: 0;">
+                <img style="height: 100vh;" src="images/elements/chineseGirl.svg" alt="chinese girl" />
             </div>
-            <div class="col-12 col-lg-5 order-1 order-lg-2">
-                <h2 class="text-center">Изделя</h2>
-                <p>
-                    Добро пожаловать, на мой сайт!
-                    Меня зовут Винирам, я создаю
-                    необычные украшения из настоящих
-                    цветов и эпоксидной смолы.
-                    Если вы хотите сделать
-                    подарок: «нифеговый» -
-                    «не такой, как всегда», то это то,
-                    что вы так долго искали!</p>
+            <div class="col-12 col-lg-6 order-1 order-lg-2 d-flex justify-content-center justify-content-lg-start">
+                <!-- Необходимо добавить привязку к @media -->
+                <div style="width:35vw">
+                    <h2 class="text-center">Изделя</h2>
+                    <p>
+                        Добро пожаловать, на мой сайт!
+                        Меня зовут Винирам, я создаю
+                        необычные украшения из настоящих
+                        цветов и эпоксидной смолы.
+                        Если вы хотите сделать
+                        подарок: «нифеговый» -
+                        «не такой, как всегда», то это то,
+                        что вы так долго искали!
+                    </p>
+                </div>
             </div>
         </div>
     </div>
