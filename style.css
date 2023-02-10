@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Arkhip';
+    src: url(fonts/Arkhip_font.ttf);
+}
+
+.logo {
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 90px;
+}
+
+.pre-title {
+    font-family: 'Arkhip';
+}
+
+.bg-green {
+    background: #afc7bd;
+}
+
+.bg-darkgreen {
+    background: #90a59b;
+}
+
+.bg-light_green {
+    background: #d1ede3;
+}
+
+.title {
+    color:#8c272d;
+}
+
+.buy-btn {
+    background-color: #8c272d !important;
+}
+
+h1, h2, h3, h5 {
+    font-family: 'Arkhip';
+}
+
+h5 {
+    font-size: 20px !important;
+}
+
+.menu-element {
+    font-family: 'Arkhip';
+}
+
+.card__title {
+    font-size: 20px;
+}
+
+.card__text {
+    font-size: 16px;
+}
+
+.price {
+    font-size: 16px !important;
+}
+
+.card-shadow {
+    filter: drop-shadow(11px 7px 11px rgb(0,0,0,0.5));
+}
